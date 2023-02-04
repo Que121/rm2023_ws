@@ -1,0 +1,11 @@
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:[m[K In member function ‘[01m[Kvoid DBus::read()[m[K’:
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:121:3:[m[K [01;31m[Kerror: [m[K‘[01m[KprintDbus[m[K’ was not declared in this scope
+  121 |   [01;31m[KprintDbus[m[K();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:[m[K In function ‘[01m[Kvoid printDbus()[m[K’:
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:137:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuff_[m[K’ was not declared in this scope
+  137 |     printf("%x \n",[01;31m[Kbuff_[m[K[i]);
+      |                    [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/rm2023_dbus.dir/build.make:76：CMakeFiles/rm2023_dbus.dir/src/dbus.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:413：CMakeFiles/rm2023_dbus.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

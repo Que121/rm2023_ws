@@ -1,0 +1,12 @@
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libstdc++.a 时跳过不兼容的 -lstdc++
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libm.a 时跳过不兼容的 -lm
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libc.a 时跳过不兼容的 -lc
+/usr/bin/ld: CMakeFiles/rm2023_dbus.dir/src/dbus_node.cpp.o: in function `DBusNode::DBusNode()':
+dbus_node.cpp:(.text+0x477): undefined reference to `DBus::init(char const*)'
+/usr/bin/ld: CMakeFiles/rm2023_dbus.dir/src/dbus_node.cpp.o: in function `DBusNode::run()':
+dbus_node.cpp:(.text+0x5b4): undefined reference to `DBus::read()'
+/usr/bin/ld: dbus_node.cpp:(.text+0x5d4): undefined reference to `DBus::getData(rm_msgs::DbusData_<std::allocator<void> >*) const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/rm2023_dbus.dir/build.make:139：/home/quinton/Desktop/rm2023_ws/devel/.private/rm2023_dbus/lib/rm2023_dbus/rm2023_dbus] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:413：CMakeFiles/rm2023_dbus.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

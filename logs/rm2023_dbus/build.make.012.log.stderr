@@ -1,0 +1,20 @@
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:181:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDBus[m[K’ has not been declared
+  181 | void [01;31m[KDBus[m[K::getData(rm_msgs::DbusData* d_bus_data) const
+      |      [01;31m[K^~~~[m[K
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:181:51:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid getData(rm_msgs::DbusData*)[m[K’ cannot have cv-qualifier
+  181 | void DBus::getData(rm_msgs::DbusData* d_bus_data) [01;31m[Kconst[m[K
+      |                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:[m[K In function ‘[01m[Kvoid getData(rm_msgs::DbusData*)[m[K’:
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:183:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_success[m[K’ was not declared in this scope
+  183 |   if ([01;31m[Kis_success[m[K)
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:185:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kd_bus_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Kd_bus_data[m[K’?
+  185 |     d_bus_data->ch_r_x = static_cast<double>([01;31m[Kd_bus_data_[m[K.ch0 / 660.0);
+      |                                              [01;31m[K^~~~~~~~~~~[m[K
+      |                                              [32m[Kd_bus_data[m[K
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus.cpp:215:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_update_[m[K’ was not declared in this scope
+  215 |     if ([01;31m[Kis_update_[m[K)
+      |         [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rm2023_dbus.dir/build.make:76：CMakeFiles/rm2023_dbus.dir/src/dbus.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:413：CMakeFiles/rm2023_dbus.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

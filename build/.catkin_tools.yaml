@@ -1,0 +1,6 @@
+devel_space: /home/quinton/Desktop/rm2023_ws/devel
+install: false
+install_space: /home/quinton/Desktop/rm2023_ws/install
+profile: default
+source_space: /home/quinton/Desktop/rm2023_ws/src
+workspace: /home/quinton/Desktop/rm2023_ws

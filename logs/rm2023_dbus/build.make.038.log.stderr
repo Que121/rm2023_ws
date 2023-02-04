@@ -1,0 +1,9 @@
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libstdc++.a 时跳过不兼容的 -lstdc++
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libstdc++.a 时跳过不兼容的 -lstdc++
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libstdc++.a 时跳过不兼容的 -lstdc++
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libm.a 时跳过不兼容的 -lm
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libm.a 时跳过不兼容的 -lm
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libm.a 时跳过不兼容的 -lm
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libc.a 时跳过不兼容的 -lc
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libc.a 时跳过不兼容的 -lc
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libc.a 时跳过不兼容的 -lc

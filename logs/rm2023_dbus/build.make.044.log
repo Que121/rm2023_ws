@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target rm2023_dbus[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rm2023_dbus.dir/src/dbus_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/quinton/Desktop/rm2023_ws/devel/.private/rm2023_dbus/lib/rm2023_dbus/rm2023_dbus[0m
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libstdc++.a 时跳过不兼容的 -lstdc++
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libstdc++.a 时跳过不兼容的 -lstdc++
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libstdc++.a 时跳过不兼容的 -lstdc++
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libm.a 时跳过不兼容的 -lm
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libm.a 时跳过不兼容的 -lm
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libm.a 时跳过不兼容的 -lm
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libc.a 时跳过不兼容的 -lc
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libc.a 时跳过不兼容的 -lc
+/usr/bin/ld: 当搜索用于 /home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin/../lib/libc.a 时跳过不兼容的 -lc
+[100%] Built target rm2023_dbus

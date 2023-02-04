@@ -1,0 +1,51 @@
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:[m[K In constructor ‘[01m[KDBusNode::DBusNode()[m[K’:
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:56:42:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   56 |   dbus_pub_ch0 = nh_.advertise<std_msgs::[01;31m[KFloat64[m[K>("controllers/joint1_position_controller/command", 1);
+      |                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:56:42:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:56:102:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [47], int)[m[K’
+   56 |   dbus_pub_ch0 = nh_.advertise<std_msgs::Float64>("controllers/joint1_position_controller/command", 1[01;31m[K)[m[K;
+      |                                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/include/rm2023_dbus/dbus_node.h:41[m[K,
+                 from [01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:38[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:56:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |   dbus_pub_ch0 = nh_.advertise<std_msgs::Float64>("controllers/joint1_position_controller/command", 1[01;31m[K)[m[K;
+      |                                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/include/rm2023_dbus/dbus_node.h:41[m[K,
+                 from [01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:38[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:56:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |   dbus_pub_ch0 = nh_.advertise<std_msgs::Float64>("controllers/joint1_position_controller/command", 1[01;31m[K)[m[K;
+      |                                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/serialization.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rm_msgs/DbusData.h:14[m[K,
+                 from [01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/include/rm2023_dbus/dbus2023.h:42[m[K,
+                 from [01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/include/rm2023_dbus/dbus_node.h:40[m[K,
+                 from [01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:38[m[K:
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = double][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:254:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum(const M&) [with M = double][m[K’
+[01m[K/opt/ros/noetic/include/ros/publisher.h:117:38:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = double][m[K’
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:66:40:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:125:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[K__getMD5Sum[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kconst double[m[K’
+  125 |     return [01;31m[Km.__getMD5Sum[m[K().c_str();
+      |            [01;31m[K~~^~~~~~~~~~~[m[K
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value(const M&) [with M = double][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:263:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype(const M&) [with M = double][m[K’
+[01m[K/opt/ros/noetic/include/ros/publisher.h:119:11:[m[K   required from ‘[01m[Kvoid ros::Publisher::publish(const M&) const [with M = double][m[K’
+[01m[K/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/src/dbus_node.cpp:66:40:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:142:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[K__getDataType[m[K’ in ‘[01m[Km[m[K’, which is of non-class type ‘[01m[Kconst double[m[K’
+  142 |     return [01;31m[Km.__getDataType[m[K().c_str();
+      |            [01;31m[K~~^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rm2023_dbus.dir/build.make:63：CMakeFiles/rm2023_dbus.dir/src/dbus_node.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:413：CMakeFiles/rm2023_dbus.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

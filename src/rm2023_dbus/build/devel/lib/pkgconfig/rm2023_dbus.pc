@@ -1,0 +1,8 @@
+prefix=/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/build/devel
+
+Name: rm2023_dbus
+Description: Description of rm2023_dbus
+Version: 0.1.16
+Cflags: -I/home/quinton/Desktop/rm2023_ws/src/rm2023_dbus/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rm_common
